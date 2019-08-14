@@ -1,15 +1,15 @@
 import sys, os
 sys.path.append('../../')
 import mglearn
-import pandas as pd
 import matplotlib.pyplot as plt
-from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsRegressor
+
 
 def show_predict():
     mglearn.plots.plot_knn_regression(n_neighbors=3)
     plt.show()
+
 
 def main():
     show_predict()
