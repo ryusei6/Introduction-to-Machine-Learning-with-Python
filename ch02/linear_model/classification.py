@@ -6,12 +6,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.svm import LinearSVC
 
 
-def show_predict():
-    pass
-
 def main():
-    # show_predict()
-
     X, y = mglearn.datasets.make_forge()
 
     fig, axes = plt.subplots(1, 2, figsize=(10, 3))
