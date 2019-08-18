@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn.svm import LinearSVC
 from sklearn.datasets import make_blobs
 
+
 def main():
     X, y = make_blobs(random_state=42)
     linear_svm = LinearSVC().fit(X, y)
@@ -18,6 +19,7 @@ def main():
     plt.ylabel("Feature 1")
     plt.legend(['Class 0', 'Class 1', 'Class 2', 'Line class 0', 'Line class 1','Line class 2'], loc=(1.01, 0.3))
     plt.show()
+
 
 if __name__ == '__main__':
     main()
