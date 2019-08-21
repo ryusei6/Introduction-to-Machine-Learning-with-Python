@@ -19,7 +19,7 @@ def main():
     ridge = Ridge(alpha=0.1).fit(X_train, y_train)
 
     # predict = ridge.predict(X_test)
-    
+
     print("Training set score: {:.2f}".format(ridge.score(X_train, y_train)))
     print("Test set score: {:.2f}".format(ridge.score(X_test, y_test)))
 

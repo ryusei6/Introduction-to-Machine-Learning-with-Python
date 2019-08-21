@@ -1,6 +1,5 @@
 import sys, os
 sys.path.append('../../')
-import mglearn
 import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.tree import DecisionTreeClassifier
