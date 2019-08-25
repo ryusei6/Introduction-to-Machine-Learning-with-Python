@@ -8,11 +8,7 @@ from sklearn.preprocessing import MinMaxScaler
 
 
 def main():
-
-
-    # make synthetic data
     X, _ = make_blobs(n_samples=50, centers=5, random_state=4, cluster_std=2)
-    # split it into training and test sets
     X_train, X_test = train_test_split(X, random_state=5, test_size=.1)
 
     # plot the training and test sets
@@ -56,6 +52,7 @@ def main():
         ax.set_ylabel("Feature 1")
     fig.tight_layout()
     plt.show()
+
 
 if __name__ == '__main__':
     main()
