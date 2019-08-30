@@ -3,7 +3,6 @@ from sklearn.cluster import KMeans
 import numpy as np
 
 
-
 def main():
     X, y = make_blobs(random_state=1)
 
