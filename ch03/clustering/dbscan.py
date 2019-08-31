@@ -1,6 +1,5 @@
 import sys, os
-sys.path.append(os.pardir)
-# sys.path.append('../../')
+sys.path.append('../../')
 from sklearn.cluster import DBSCAN
 from sklearn.datasets import make_moons
 import matplotlib.pyplot as plt
